@@ -1,0 +1,48 @@
+#header img {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+#nav ul {
+	margin-left: -2.5em;
+}
+
+#nav li {
+	list-style-type: none;
+	float: left;
+	width: 10em;
+	text-align: center;
+}
+
+#nav a {
+	display:block;
+	color: rgb(153,0,51);
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color:rgb(0,153,255);
+}
+
+#nav li ul {
+	display: none;
+}
+
+#nav li:hover > ul {
+	display: block;
+}
+
+/*This applies for table data in the services.html file*/
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color:rgb(0,153,255);
+}
+
+img{
+	width: 50%;
+	
+}

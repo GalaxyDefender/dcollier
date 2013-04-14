@@ -1,0 +1,33 @@
+@media only screen and (max-width: 380px){
+	
+}
+
+#container {
+	width: 100%;
+}
+#content {
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#footer {
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.column {
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	float: left;
+}
+
+#intro {
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+}
