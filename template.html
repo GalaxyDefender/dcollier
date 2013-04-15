@@ -1,49 +1,46 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>index.html</title>
-<link rel="stylesheet"
-      type="text/css"
-      href="layout.css" />
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet"
+        type="text/css"
+        href="css/Navigation.css" />
 </head>
 
 <body>
-<div id="wrapper">
-  <div id="header"><img src="images/COLLYER-NEW-LOGO22.jpg" alt="header"></div>
-  
-  <div id="menu">
+<div class="container">
+  <div id="header" class="sixteen columns"><img src="images/COLLYER-NEW-LOGO22.jpg" alt="header"></div>
+  <div id="nav" class="sixteen columns">
     <ul>
-    <!--Use class of arrow to piont where the user is on the website-->
-      <li><a href="index.html">home</a></li> 
-      <li><a href="about.html">about us</a></li> 
-      <li><a href="vat.html">vat & tax</a></li>  
-      <li><a href="services.html">list of services</a></li> 
-      <li><a href="contact.html">contact us</a></li> 
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="vat.html">Vat & Tax</a></li>
+      <li><a href="services.html">List of Services</a>
+        <ul>
+          <li><a href="audit_NonAttest.html">Audit And Non Attest Services</a></li>
+            <li><a href="accountingServices.html">Accounting Services</a></li>
+            <li><a href="Tax_VAT.html">Tax And VAT</a></li>
+            <li><a href="secretarialServices.html">Secretarial Services</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact Us</a></li>
     </ul>
-  <div id="grey">
+    <div id="grey"></div>
   </div>
-  </div>
-  
-  <div id="picSlide">
-    <!--add accounting pictures that slide-->
-  <img class="first" src="images/AA000498_highres.jpg" width="247" height="200">
-  <img class="middle" src="images/accounting.jpg" width="247" height="200">
-  <img class="last" src="images/accounting.gif" width="247" height="200">
-  <img src="images/accounting (1).jpg" width="247" height="200"> </div>
-    
-  <div id="main">
-     <!--add content-->
+  <div id="content" class="sixteen columns">
+    <!--add content-->
     
   </div>
-  
-  <div id="footer">
+  <div id="footer" class="sixteen columns">
     <div style="background-color:#999;">
       <p class="copyright">Copyright 2013</p>
       <p>HILLCREST ~ SUITE 16, HILLCREST OFFICE PARK, 2 OLD MAIN ROAD ~ P O BOX 1067, HILLCREST, 3650 – Tel 031 765 8701
-PIETERMARTIZBURG ~ NO 5, 35 BLACKBURROW ROAD, HAYFIELDS ~ POSTNET SUITE 259, PRIVATE BAG X6, CASCADES, 3200</p>
+        PIETERMARTIZBURG ~ NO 5, 35 BLACKBURROW ROAD, HAYFIELDS ~ POSTNET SUITE 259, PRIVATE BAG X6, CASCADES, 3200</p>
+    </div>
+  </div>
+  <!--end footer-->
 </div>
-  </div> <!--end footer-->
-</div> <!--end wrapper-->
+<!--end container-->
 </body>
 </html>
