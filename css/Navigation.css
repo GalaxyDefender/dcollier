@@ -1,3 +1,7 @@
+body {
+	background-color: #999;
+}
+
 #header img {
 	width: 50%;
 	margin-left: 25%;
@@ -12,6 +16,7 @@
 	float: left;
 	width: 10em;
 	text-align: center;
+	border: 1px solid black;
 }
 
 #nav a {
