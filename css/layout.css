@@ -1,9 +1,19 @@
 body {
 	background-color: #999;
+	font-family:"Myriad Web Pro","Helvetica Neue",Helvetica,Lucida,Verdana,sans-serif;
 }
 
 #header img {
 	width: 50%;
 	margin-left: 25%;
 	margin-right: 25%;
+}
+
+.copyright {
+	text-align: center;
+}
+
+#footer p {
+	font-size: 0.625em;
+	text-align: center;
 }
