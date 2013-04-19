@@ -17,3 +17,13 @@ body {
 	font-size: 0.625em;
 	text-align: center;
 }
+
+table tr td a {
+	text-align: center;
+	text-decoration: none;
+}
+
+td img {
+	width: 18.75em;
+	height: 12.5em;
+}
